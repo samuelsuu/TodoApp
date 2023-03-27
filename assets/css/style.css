@@ -1,0 +1,65 @@
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: lower-alpha;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.to{
+    margin: 20px 0;
+    background: blue;
+    padding: 20px 60px;
+    border-radius: 20px;
+}
+.too{
+    gap: 0.5rem;
+}
+.todo h1{
+    padding: 10px 0;
+}
+.todo{
+    background: gold;
+    color: white;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.editButton{
+    margin-left: 20px;
+    margin-bottom: 14px;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 100vh;
+    font-size: 20px;
+    font-weight: 400px;
+}
+input{
+ border: none;
+ border-bottom: 2px blue solid; 
+ padding: 10px 30px;  
+ background: transparent;
+}
+input:focus{
+    border: none;
+}
