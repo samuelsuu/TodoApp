@@ -44,6 +44,10 @@ li{
     margin-left: 20px;
     margin-bottom: 14px;
 }
+button{
+    font-size: 18px;
+}
+
 .todo{
     display: flex;
     flex-direction: column;
@@ -59,7 +63,13 @@ input{
  border-bottom: 2px blue solid; 
  padding: 10px 30px;  
  background: transparent;
+ width: 50%;
 }
 input:focus{
     border: none;
+}
+@media (min-width: 700px) {
+    input{
+        width: 30%;
+    }
 }
