@@ -43,9 +43,11 @@ li{
 .editButton{
     margin-left: 20px;
     margin-bottom: 14px;
+    cursor: pointer;
 }
 button{
     font-size: 18px;
+    cursor: pointer;
 }
 
 .todo{
@@ -64,6 +66,7 @@ input{
  padding: 10px 30px;  
  background: transparent;
  width: 50%;
+ cursor: pointer;
 }
 input:focus{
     border: none;
